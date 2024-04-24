@@ -125,16 +125,6 @@ class _MobileLayoutScreenState extends ConsumerState<MobileLayoutScreen>
                   ],
                 ),
               ),
-              Tab(
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Icon(Icons.phone),
-                    SizedBox(width: 5),
-                    Text('CALLS'),
-                  ],
-                ),
-              ),
             ],
           ),
         ),
@@ -143,7 +133,6 @@ class _MobileLayoutScreenState extends ConsumerState<MobileLayoutScreen>
           children: const [
             ContactsList(),
             FeedPage(),
-            Text('Calls'),
           ],
         ),
         floatingActionButton: FloatingActionButton(
